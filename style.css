@@ -1,0 +1,133 @@
+/* I, Kaley Santonocito, certify that this submission is my own original work. */
+
+body {
+    background-color: #0f0f0f;
+    color: #f5efe1;
+    font-family: 'Lumos', serif;
+    margin: 0;
+    height: 100vh;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 52px;
+    color: gold;
+    margin-bottom: 10px;
+    text-align: center;
+    text-shadow:
+    0 0 12px rgba(255, 215, 0, 0.5),
+    0 0 24px rgba(255, 215, 0, 0.25);
+}
+
+h2 {
+    color: #d3d3d3;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 15px 0;
+}
+
+a {
+    text-decoration: none;
+    background: linear-gradient(to bottom, #5c0f0f, #2b0000);
+    color: #f5d36b;
+    padding: 16px 28px;
+    border-radius: 12px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    width: 320px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 215, 0, 0.15);
+    box-shadow:
+        0 0 10px rgba(255, 215, 0, 0.08);
+    font-size: 22px;
+}
+
+a:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to bottom, #7a1a1a, #3b0000);
+    color: #fff4b0;
+    box-shadow:
+        0 0 20px rgba(255, 215, 0, 0.35);
+}
+
+.corner {
+    position: fixed;
+    width: 180px;
+    opacity: 0.48;
+    z-index: 0;
+}
+
+.top-left {
+    top: 20px;
+    left: 20px;
+}
+
+.top-right {
+    top: 20px;
+    right: 20px;
+}
+
+.bottom-left {
+    bottom: 20px;
+    left: 20px;
+}
+
+.bottom-right {
+    bottom: 20px;
+    right: 20px;
+}
+table, th, td {
+    font-family: Georgia, serif;
+}
+
+table {
+    width: 85%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #111;
+    color: #f5efe1;
+}
+
+th {
+    background-color: #3b0a0a;
+    color: gold;
+    padding: 12px;
+    font-size: 16px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #444;
+    font-size: 15px;
+}
+
+td a {
+    width: auto;
+    padding: 8px 14px;
+    font-family: Georgia, serif;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+body > a {
+    width: 250px;
+    margin: 25px auto;
+    font-family: Georgia, serif;
+}
